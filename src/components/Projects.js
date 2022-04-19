@@ -54,7 +54,7 @@ class Projects extends React.Component {
     return (
       <div id="projects">
         <div className="section-header ">
-          <span className="section-title">/ software-creations</span>
+          <span className="section-title">/ projects</span>
         </div>
 
         <div className="project-container">

@@ -77,60 +77,37 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const JobList = () => {
+const AaccList = () => {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    cuutruyen: {
-      jobTitle: "Translator @",
-      duration: "MAR 2020 - NOV 2021",
+    Ability: {
+      jobTitle: "",
+      duration: "",
       desc: [
-        "Translate raw mangas/light novels from English to Vietnamese for cuutruyen.net website.",
-        "Perform high precision and consistent traslations.",
-        "Plan on joining the current website development team after highschool graduation.",
-        "Learnt many soft and communicating skills."
+        "Good at Programming & Science as well as Critical and Logical Thinking. Unique research ability, high adaptability, responsibility and curiosity. Self-studied Computer Vision, Web Programming, Algorithms, Python, C++, Raspberry Pi, Jetson Nano, Deep Learning, Robotics, etc.. Experienced with diverse types of hardware and software and have done many projects competitions with them."
       ]
     },
-    NTMK: {
-      jobTitle: "An Active Student @",
-      duration: "AUG 2019 - current",
+    Aspiration: {
+      jobTitle: "",
+      duration: "",
       desc: [
-        "Parcitipated in many social/science activities and competitions.",
-        "Member of MEU - Miki English Union Club (social) and head of STEAMK - Minh Khai Steam Club (science & robotics).",
-        "Member of English & Informatics selection team - Bronze medal in 30 April Olympic Contest (English). ",
-        "Consistent grades & fair GPA."
+        "Humble in our aspirations, gracious in our success, resilient in our failure. I want to bring AI closer and more approachable to youngsters, specifically highschool students to make AI integrate into Vietnam better. Work in a professional environment and use my knowledge to improve Vietnamese people’s daily lives."
       ]
     },
-    Activities: {
-      jobTitle: "Knowledge Seeking @",
-      duration: "Since i was born",
+    Creativity: {
+      jobTitle: "",
+      duration: "",
       desc: [
-        "Parcitipated in the Massive Open Online Course (MOOC) Web Programming at the American Center HCM city - June to July 2019", //add picture of cirtificates smartly and elegantly 
-        "Parcitipated in the Summer Tech Camp organized by the American Center HCM city - August 2020",
-        "Parcitipated in the Global MakeCode Arcade Game Jam at the American Center HCM city (U.S Consulate x Steam for VietNam) - December 2021.",
-        "Parcitipated in the English Language Teacher Professional Development Webinar: \"Applying technology in the English language classroom\" - August 2020.",
-        "Part of many events & programs of different fields, especially science."
+        "Have the ability to create technological products that serves different needs (attendance check, object detection, facemask detection, etc.. ). Have creative ways of approaching and executing problems. Volunteered in the frontline against Covid-19 to see problems that I could help solving with my inventions. Planned and designed “The Anti-Covid Intelligent Machine”’s functionalities, mechanism, etc.."
       ]
     },
-    STEAMK: {
-      jobTitle: "Head Student @",
-      duration: "NOV 2021 - current",
+    "Commitment": {
+      jobTitle: "",
+      duration: "",
       desc: [
-        "Parcitipated and assisted/hosted knowledge sharing/teaching events.", //for future Hao: find a way to add picture of STEAMK here (workplace)
-        "Pioneer in new technologies and inform to others: Machine Learning, Raspberry Pi, Jetson Nano,...",
-        "Cleaner/Furnisher of the workplace."
-      ]
-    },
-    "Competitions": {
-      jobTitle: "A Fierce Competitor @",
-      duration: "Since i was born",
-      desc: [
-        "IELTS 7.0 at Grade 9.",
-        "Runner-up prize in the RMIT Techgenius Competition - Engineering category.", 
-        "Honorable Award from the National Speaking English Contest 2020.",
-        "First place in the Scientific Research Competition of the school.",
-        "Bronze medal in 30 April Olympic Contest (English)."
+        "Spent 7 months to create “The Anti-Covid Intelligent Machine” from scratch. Become an influencer in the Vietnamese AI field and make AI more popular and developmental especially to younger technology enthusiasts since AI could make a big impact on the society through its applications."
       ]
     }
   };
@@ -176,4 +153,4 @@ const JobList = () => {
   );
 };
 
-export default JobList;
+export default AaccList;
